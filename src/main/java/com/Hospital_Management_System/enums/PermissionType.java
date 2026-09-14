@@ -1,0 +1,17 @@
+package com.Hospital_Management_System.enums;
+
+public enum PermissionType {
+
+    VIEW_PATIENT,
+    CREATE_PATIENT,
+    UPDATE_PATIENT,
+    DELETE_PATIENT,
+
+    VIEW_APPOINTMENT,
+    CREATE_APPOINTMENT,
+    UPDATE_APPOINTMENT,
+    DELETE_APPOINTMENT,
+
+    CREATE_PRESCRIPTION,
+    VIEW_MEDICAL_RECORD
+}
